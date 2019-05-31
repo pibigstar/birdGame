@@ -22,7 +22,7 @@ export class Birds extends Sprite{
         //每一组需要剪裁的高度
         this.clippingHeight = [24, 24, 24];
 
-        //初始时小鸟的X，Y坐标
+        //小鸟的X，Y坐标
         this.birdX = window.innerWidth / 4;
         this.birdsX = [this.birdX,this.birdX,this.birdX]
         this.birdY = window.innerWidth / 2;

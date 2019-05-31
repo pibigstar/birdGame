@@ -11,7 +11,7 @@ export class DownPencil extends Pencil{
     }
 
     draw(){
-        let gap = window.innerWidth / 5; //铅笔之间的间隙
+        let gap = window.innerWidth / 4; //铅笔之间的间隙
         this.y = this.top + gap;
         super.draw()
     }
